@@ -1,0 +1,83 @@
+#header {
+    position: relative;
+    height: 150px;
+}
+
+#logo {
+    position: absolute;
+    top: 6em;
+    width: 100%;
+}
+
+#logo h1 {
+    display: inline-block;
+    font-size: 2.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #ed7070;
+    padding-right: 0.5em;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#logo span {
+    display: inline-block;
+    padding-right: 0.5em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+#logo a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo .fa {
+    color: #f2762e;
+}
+
+#logo .fa:after {
+    position: absolute;
+    display: inline-block;
+    padding-right: 2em;
+}
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+
+#menu {
+    position: absolute;
+    right: 0;
+    top: 6em;
+}
+
+#menu ul {
+    display: inline-block;
+}
+
+#menu li {
+    display: block;
+    float: left;
+    text-align: center;
+}
+
+#menu li a,
+#menu li span {
+    display: inline-block;
+    margin-left: 1px;
+    padding: 1em 1.5em 1em 1.5em;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    font-size: 1em;
+    text-transform: uppercase;
+    outline: 0;
+    color: #fff;
+}
+
+
+#menu .current_page_item a {
+    background: #1757ae;
+    border-radius: 30px;
+    color: #fff;
+}
